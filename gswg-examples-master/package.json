@@ -1,0 +1,48 @@
+{
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "name": "gswg-examples",
+  "version": "0.0.1",
+  "author": "Jaime Pillora <dev@jpillora.com> (http://jpillora.com)",
+  "description": "Getting Started with Grunt - Code Examples",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jpillora/gswg-examples.git"
+  },
+  "bugs": "https://github.com/jpillora/gswg-examples/issues",
+  "homepage": "http://gswg.io/",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "load-grunt-tasks": "~0.1.0"
+=======
+=======
+>>>>>>> 496e7ac8de4b4b7547c8e7049a9c83feaf577ef5
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lmts",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-less": "~0.7.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-spritesmith": "^2.20.0"
+<<<<<<< HEAD
+>>>>>>> 496e7ac8de4b4b7547c8e7049a9c83feaf577ef5
+=======
+>>>>>>> 496e7ac8de4b4b7547c8e7049a9c83feaf577ef5
+  }
+}

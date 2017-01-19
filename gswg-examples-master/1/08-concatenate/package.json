@@ -1,0 +1,11 @@
+{
+  "name": "gswg-1-08-concatenate",
+  "version": "0.1.0",
+  "repository": "https://github.com/jpillora/gswg-examples.git",
+  "author": "Jaime Pillora <gswg@jpillora.com>",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0"
+  },
+  "license": "MIT"
+}

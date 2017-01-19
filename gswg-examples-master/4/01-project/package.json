@@ -1,0 +1,10 @@
+{
+  "name": "gswg-4-01-project",
+  "version": "0.1.0",
+  "repository": "https://github.com/jpillora/gswg-examples.git",
+  "author": "Jaime Pillora <gswg@jpillora.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}

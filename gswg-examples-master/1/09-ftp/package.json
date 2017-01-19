@@ -1,0 +1,11 @@
+{
+  "name": "gswg-1-09-ftp",
+  "version": "0.1.0",
+  "repository": "https://github.com/jpillora/gswg-examples.git",
+  "author": "Jaime Pillora <gswg@jpillora.com>",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-ftp-deploy": "0.0.9"
+  },
+  "license": "MIT"
+}
