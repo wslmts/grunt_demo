@@ -24,6 +24,21 @@ module.exports = function(grunt) {
             files: {
                 "build/<%=config1.name%>.js": ["src/a.js", "src/b.js", "src/c.js"]
             }
+        },
+        target4: {
+            files: {
+                "dest/abc.js": "src/{a,b,c}.js"
+            }
+        },
+        target5: {
+            files: {
+                "dest1/abc.js": ["!src/a.js", "src/b.js", "src/c.js"]
+            }
+        },
+        target6: {
+            files: {
+                "dest2/abc.js": "src/{a,!b,c}.js"
+            }
         }
     }
   });

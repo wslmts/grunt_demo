@@ -10,7 +10,7 @@ module.exports = function(grunt) {
 
       //compact format
       target1: {
-        src: 'src/{a,b}.js',
+        src: 'src/{a,b,f}.js',
         dest: 'dest/c.js'
       },
 
@@ -42,7 +42,10 @@ module.exports = function(grunt) {
         cwd: 'src/',
         src: '*.js',
         dest: 'dest/'
-      }
+      },
+        target5: {
+
+        }
 
     }
 
