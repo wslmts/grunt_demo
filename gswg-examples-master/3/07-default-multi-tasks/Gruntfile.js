@@ -12,6 +12,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerMultiTask('build', function() {
+      console.log(this)
     console.log('building target ' + this.target + '...');
   });
 

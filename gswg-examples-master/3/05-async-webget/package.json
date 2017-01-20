@@ -4,7 +4,9 @@
   "repository": "https://github.com/jpillora/gswg-examples.git",
   "author": "Jaime Pillora <gswg@jpillora.com>",
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
     "request": "~2.27.0"
   },
   "license": "MIT"

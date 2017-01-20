@@ -13,8 +13,9 @@ module.exports = function(grunt) {
       } else {
         grunt.file.write('FILE.md', contents);
         grunt.log.ok('FILE.md successfully created');
-        done();
+        done('FINISH ASYNC');
       }
     });
+      console.log('outside')
   });
 };

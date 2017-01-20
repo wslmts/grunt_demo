@@ -4,14 +4,14 @@ module.exports = function(grunt) {
     copy: {
       target1: {
         files: {
-          'dest/file1.txt': 'src/file1.txt',
-          'dest/file2.txt': 'src/file2.txt'
+          'dest1/file1.txt': 'src/file1.txt',
+          'dest1/file2.txt': 'src/file2.txt'
         }
       },
       target2: {
         files: {
-          'dest/file3.txt': 'src/file3.txt',
-          'dest/file4.txt': 'src/file4.txt'
+          'dest1/file3.txt': 'src/file3.txt',
+          'dest1/file4.txt': 'src/file4.txt'
         }
       }
     }

@@ -17,6 +17,10 @@ module.exports = function(grunt) {
     console.log('Bazz is ' + bazz);
       var inf=grunt.config.get('info');
       console.log('info is ' + inf.email+"--"+inf.phone+"--"+grunt.config.get('city'));
+     /* console.log(this);
+      console.log('--------------------------');
+      console.log(grunt)*/
+      console.log('grunt option ' + grunt.option('opt'));
   });
 
 };

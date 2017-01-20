@@ -5,6 +5,6 @@ module.exports = function(grunt) {
     var message = 'Deployment on ' + new Date();
     fs.appendFileSync('deploy.log', message + '\n');
     console.log('Appended "' + message + '"');
+      console.log(this);
   });
-  
 };
