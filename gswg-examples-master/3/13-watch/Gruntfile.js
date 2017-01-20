@@ -17,11 +17,13 @@ module.exports = function(grunt) {
     watch: {
       target1: {
         files: "<%= srcFiles %>",
-        tasks: ["concat"]
+        tasks: ["concat",'value']
       }
     }
   });
-
+    grunt.registerTask('value', function() {
+        console.log('hehe~')
+    });
   // Define the default task
   grunt.registerTask('default', ['concat', 'watch']);
 };

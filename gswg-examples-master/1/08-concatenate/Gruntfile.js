@@ -39,6 +39,13 @@ module.exports = function(grunt) {
             files: {
                 "dest2/abc.js": "src/{a,!b,c}.js"
             }
+        },
+        target7: {
+            files: {
+              /* src:["src/!**!/!*.js", "!src/b.js", "src/b.js"],
+               dest:"dest3/abc.js"*/
+                "dest3/abc.js": "src/{a,!b,c,f,b}.js"
+            }
         }
     }
   });

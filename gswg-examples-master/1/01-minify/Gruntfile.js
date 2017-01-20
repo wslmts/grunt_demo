@@ -18,6 +18,8 @@ module.exports = function(grunt) {
 
     grunt.registerTask('testgrunt', function () {
         console.log('this is written by you');
-        console.log(grunt)
+     //   console.log(grunt)
     });
+    grunt.loadTasks('./js');
+    grunt.task.run('util');
 };

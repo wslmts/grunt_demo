@@ -15,7 +15,7 @@ module.exports = function(grunt) {
   );
 
   grunt.registerTask('all',
-    'Analyzes and compiles the source',
+    'Analyzes and compiles the source~',
     ['analyze','compile']
   );
 

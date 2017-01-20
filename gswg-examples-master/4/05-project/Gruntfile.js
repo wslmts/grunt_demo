@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   // Initialize environment
   var env = grunt.option('env') || 'dev';
-
+ console.log(env)
   // Load tasks provided by each plugin
   grunt.loadNpmTasks("grunt-contrib-coffee");
   grunt.loadNpmTasks("grunt-contrib-stylus");
@@ -34,7 +34,10 @@ module.exports = function(grunt) {
         },
         src: "src/styles/app.styl",
         dest: "build/css/app.css"
-      }
+      },
+        css:{
+            name:'aaa'
+        }
     },
     jade: {
       build: {
